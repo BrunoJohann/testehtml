@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin:0;
+    
+   }
+
+   body .bg{
+        content:"" ;
+        background-image: url("https://images.unsplash.com/photo-1506306460327-3164753b74c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80");
+        opacity: .8;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        background-size: cover;
+        min-height: 100vh;
+        background-position: center center;
+   }
+
+   #cabeça{
+       text-align: center;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       margin: auto;
+       margin-top: -10px;
+       margin-bottom: 30px;
+       font-size: 25px;
+       background-color: greenyellow;
+       font-style: italic;
+       text-decoration: underline ;
+   }
+
+
+
+   #cabeça h4{
+       font-size: 20px;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-top: -30px;
+       font-style: italic;
+       text-decoration: underline 2.5px;
+   }
+
+
+
+
+   #pescoço{
+       background-color: red;
+       margin: auto;
+       margin-top: -20px;
+   }
+
+   .indice{
+       display: flex;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       width: 100%;
+       justify-content: space-around;
+       padding: 10px 0;
+       margin-top: -2vh;
+       background-color: khaki;
+
+   }
+
+   #pesquisa{
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: red;
+       background-color: black;
+       padding: 10px 10px;
+       border-radius: 10px;
+       border: 2px solid #5fe36a;
+       
+   }
+
+   #pesquisa input{
+       border-radius: 7px;
+       background-color: rgba(252, 252, 252, 252);
+       border: 2px dotted red;
+       
+   }
+
+  
+
+   #corpo{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+      background-color: blue;
+   }
+
+   #corpo-titulo{
+       text-align:center;
+       font-size: 25px;
+       margin: auto;
+       margin-left: -169vh;
+       margin-top: 5vh;
+       font-style: italic;
+       background-color: chocolate;
+   }
+
+   #corpo-corpo{
+
+    font-size: 20px;
+    text-indent: 1.3em;
+    background-color: crimson;
+   }
+
+   #corpo-corpo p:nth-child(1){
+    margin: auto;
+    margin-top: -1vh;
+    margin-bottom: 7vh;       
+   }
+
+   #corpo-corpo p:nth-child(2){
+       margin: auto;
+       margin-top: 7vh;
+       margin-bottom: 7vh;
+   }
+
+   #corpo-corpo p:nth-child(3){
+       text-align: center;
+
+   }
+
+   #gratuito{
+       font-style: italic;
+       font-weight: bold;
+       text-decoration: underline;
+       
+   }
+
+
+
+
+   .btn {
+       text-align: center;
+       margin-top: 50px;
+   }
+
+   .efeito{
+       border: none;
+       color:#ffffff;
+       padding: 20px;
+       margin: 10px;
+       font-size: 24px;
+       line-height: 24px;
+       border-radius: 10px;
+       position: relative;
+       box-sizing: border-box;
+       cursor:pointer;
+       transition: all 300ms ease;
+   }
+
+   .efeito1{
+       background-color: #28348a;
+   }
+
+   .efeito1:before{
+       content: '';
+       position: absolute;
+       top: 0px;
+       left: 0px;
+       width: 0px;
+       height: 64px;
+       background: rgba(255, 255, 255, 0.2);
+       border-radius: 10px;
+       transition: all 2s ease;
+   }
+
+   .efeito1:hover:before{
+       width: 100%;     
+       
+   }
+
+
+
+   .efeito2{
+       background: #5fe36a;
+       transform-style: preserve-3d;
+       min-width: 500px;
+       
+   }
+
+   .efeito2:after{
+       top:-100%;
+       left:0px;
+       width: 100%;
+       padding: 20px;
+       position: absolute;
+       background: red;
+       border-radius: 10px;
+       box-sizing: border-box;
+       /* content: 'Xingamento grátis!'; */
+       content: attr(content-after);
+       transform-origin: left bottom;
+       transform: rotateX(90deg);
+
+   }
+
+   .efeito2:hover{
+       transform-origin: center bottom;
+       transform:rotateX(-90deg) translateY(100%);
+   }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+   .img-serviço{
+       font-size: 22px;
+       font-style: italic;
+   }
+
+   #pes {
+       background-color: crimson;
+   }
+
+
+
+   
+
+  
