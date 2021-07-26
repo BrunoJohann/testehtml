@@ -53,6 +53,8 @@ body {
        margin-top: -20px;
    }
 
+
+
    .indice{
        display: flex;
        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -64,6 +66,42 @@ body {
 
    }
 
+
+   .indice a:nth-child(1){
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid #5fe36a;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+   }
+
+
+   .indice a:nth-child(2){
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid #5fe36a;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+   }
+
+
+   .indice a:nth-child(3){
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid #5fe36a;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+   }
+
+
+  
+
    #pesquisa{
        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        color: red;
@@ -71,8 +109,11 @@ body {
        padding: 10px 10px;
        border-radius: 10px;
        border: 2px solid #5fe36a;
+	   box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
        
    }
+
+
 
    #pesquisa input{
        border-radius: 7px;
